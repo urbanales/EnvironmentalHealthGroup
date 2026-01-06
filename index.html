@@ -2,31 +2,103 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>EH Global</title>
+  <title>Environmental Health Research Group</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>EH Global</h1>
-    <p>My GitHub Website</p>
-  </header>
+<header>
+  <h1>Environmental Health Research Group</h1>
+  <p>Department of Water Resources and Environmental Modeling</p>
+</header>
 
-  <main>
-    <section>
-      <h2>About</h2>
-      <p>This website is under development 🚀</p>
-    </section>
+<nav>
+  <button class="tab active" onclick="openTab('about')">About</button>
+  <button class="tab" onclick="openTab('team')">Team</button>
+  <button class="tab" onclick="openTab('projects')">Projects</button>
+  <button class="tab" onclick="openTab('publications')">Publications</button>
+  <button class="tab" onclick="openTab('teaching')">Teaching</button>
+</nav>
 
-    <section>
-      <h2>Contact</h2>
-      <p>Email: you@email.com</p>
-    </section>
-  </main>
+<main>
 
-  <footer>
-    <p>© 2026 EH Global</p>
-  </footer>
+<section id="about" class="tab-content active">
+  <h2>About Us</h2>
+  <p>
+    We study how climate and weather affect human health, with a focus on
+    temperature extremes, air pollution, and other environmental stressors.
+    Our research lies at the intersection of epidemiology, human biometeorology,
+    and data science, with particular attention to urban populations and
+    climate change.
+  </p>
 
+  <h3>Research Focus</h3>
+  <ul>
+    <li>Climate change, temperature extremes, and mortality</li>
+    <li>Predictive models for future health risks</li>
+    <li>Adaptation strategies and public health policy</li>
+  </ul>
+</section>
+
+<section id="team" class="tab-content">
+  <h2>Team</h2>
+
+  <h3>Team Leader</h3>
+  <p><strong>Dr. Aleš Urban</strong><br>
+  Human biometeorology and environmental epidemiology<br>
+  <a href="https://orcid.org/0000-0003-4608-3553" target="_blank">ORCID</a>
+  </p>
+
+  <h3>Postdoctoral Researchers</h3>
+  <ul>
+    <li>Consuelo Quispe Haro</li>
+    <li>Saumya Singh</li>
+    <li>Tugba Dogan</li>
+  </ul>
+
+  <h3>PhD Students</h3>
+  <ul>
+    <li>Ekaterina Borisova</li>
+    <li>Falak Naz</li>
+    <li>Sonjib Chakraborty</li>
+    <li>Mahulena Kořistková</li>
+  </ul>
+
+  <h3>Collaborators</h3>
+  <p>National and international collaborators across Europe and beyond.</p>
+</section>
+
+<section id="projects" class="tab-content">
+  <h2>Projects</h2>
+  <ul>
+    <li>CLARA (ERC_CZ)</li>
+    <li>CrossEU (Horizon Europe)</li>
+    <li>GAČR 25-17587S</li>
+  </ul>
+</section>
+
+<section id="publications" class="tab-content">
+  <h2>Publications</h2>
+  <p>
+    Selected peer-reviewed publications will be listed here.
+    (Can be linked to ORCID, Google Scholar, or PubMed later.)
+  </p>
+</section>
+
+<section id="teaching" class="tab-content">
+  <h2>Teaching</h2>
+  <p>
+    <strong>Methods in Environmental Epidemiology</strong><br>
+    Faculty of Environmental Sciences, CZU Prague
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <p>© Environmental Health Research Group</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
