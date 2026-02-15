@@ -289,3 +289,22 @@ footer{
   height: 360px !important;
 }
 */
+.pub-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.pub-list li {
+  margin-bottom: 15px;
+}
+
+.pub-list a {
+  text-decoration: none;
+  color: #0f2a44;
+  font-weight: bold;
+}
+
+.pub-list a:hover {
+  text-decoration: underline;
+}
